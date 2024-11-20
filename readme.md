@@ -1,6 +1,11 @@
 # Event Manager Company: Software QA Analyst/Developer Onboarding Assignment
 
-Welcome to the Event Manager Company! As a newly hired Software QA Analyst/Developer and a student in software engineering, you are embarking on an exciting journey to contribute to our project aimed at developing a secure, robust REST API that supports JWT token-based OAuth2 authentication. This API serves as the backbone of our user management system and will eventually expand to include features for event management and registration.
+Welcome to the Event Manager Company! As a newly hired Software QA Analyst/Developer and a student in software engineering, you are embarking on an exciting journey to contribute to our project aimed at developing a secure, robust REST API that supports JWT (JSON Web Token ) token-based OAuth2 authentication. This API serves as the backbone of our user management system and will eventually expand to include features for event management and registration.
+
+## Instructor Videos
+
+ - [Introduction to REST API with Postgres](https://youtu.be/dgMCSND2FQw) - This video provides an overview of the REST API you'll be working with, including its structure, endpoints, and interaction with the PostgreSQL database.
+ - [Assignment Instructions](https://youtu.be/TFblm7QrF6o) - Detailed instructions on your tasks, guiding you through the assignment step by step.
 
 ## Assignment Objectives
 
@@ -16,7 +21,7 @@ Welcome to the Event Manager Company! As a newly hired Software QA Analyst/Devel
 
 ## Setup and Preliminary Steps
 
-1. **Fork the Project Repository**: Fork the [project repository](https://github.com/yourusername/event_manager) to your own GitHub account. This creates a copy of the repository under your account, allowing you to work on the project independently.
+1. **Fork the Project Repository**: Fork the [project repository](https://github.com/woffee/event_manager) to your own GitHub account. This creates a copy of the repository under your account, allowing you to work on the project independently.
 
 2. **Clone the Forked Repository**: Clone the forked repository to your local machine using the `git clone` command. This creates a local copy of the repository on your computer, enabling you to make changes and run the project locally.
 
@@ -24,7 +29,7 @@ Welcome to the Event Manager Company! As a newly hired Software QA Analyst/Devel
 
 ## Testing and Database Management
 
-1. **Explore the API**: Use the Swagger UI at `http://localhost/docs` to familiarize yourself with the API endpoints, request/response formats, and authentication mechanisms. Swagger UI provides an interactive interface to explore and test the API endpoints.
+1. **Explore the API**: Use `http://localhost/docs` to familiarize yourself with the API endpoints, request/response formats, and authentication mechanisms. It provides an interactive interface to explore and test the API endpoints.
 
 2. **Run Tests**: Execute the provided test suite using pytest, a popular testing framework for Python. Running tests ensures that the existing functionality of the API is working as expected. Note that running tests will drop the database tables, so you may need to manually drop the Alembic version table using PGAdmin and re-run migrations to ensure a clean state.
 
@@ -55,7 +60,7 @@ Additionally, you will resolve a sixth issue demonstrated in the instructor vide
 To complete this assignment, submit the following:
 
 1. **GitHub Repository Link**: Ensure that your repository is well-organized and includes:
-  - Links to five closed issues, each with accompanying test code and necessary application code modifications.
+  - Five closed issues, each with accompanying test code and necessary application code modifications.
   - Each issue should be well-documented, explaining the problem, the steps taken to resolve it, and the outcome. Proper documentation helps others understand your work and facilitates future maintenance.
   - All issues should be merged into the main branch, following the Git workflow and best practices.
 
@@ -77,9 +82,7 @@ To complete this assignment, submit the following:
 
 ## Resources and Documentation
 
-- **Instructor Videos and Important Links**:
- - [Introduction to REST API with Postgres](https://youtu.be/dgMCSND2FQw) - This video provides an overview of the REST API you'll be working with, including its structure, endpoints, and interaction with the PostgreSQL database.
- - [Assignment Instructions](https://youtu.be/TFblm7QrF6o) - Detailed instructions on your tasks, guiding you through the assignment step by step.
+- **Important Links**:
  - [Git Command Reference I created and some explanation for collaboration with git](git.md)
  - [Docker Commands and Running The Tests in the Application](docker.md)
  - Look at the code comments:
@@ -92,7 +95,7 @@ To complete this assignment, submit the following:
     - [Alembic Migration - this is what runs to create the tables when you do alembic upgrade head](alembic/versions/628adcb2d60e_initial_migration.py)
     - See the tests folder for all the tests
 
- - API Documentation: `http://localhost/docs` - The Swagger UI documentation for the API, providing information on endpoints, request/response formats, and authentication.
+ - API Documentation: `http://localhost/docs` - Provides information on endpoints, request/response formats, and authentication.
  - Database Management: `http://localhost:5050` - The PGAdmin interface for managing the PostgreSQL database, allowing you to view and manipulate the database tables.
 
 - **Code Documentation**:
@@ -106,16 +109,3 @@ To complete this assignment, submit the following:
 
 These resources will provide you with a solid foundation to understand the tools, technologies, and concepts used in the project. Don't hesitate to explore them further and consult the documentation whenever you encounter challenges or need clarification.
 
-## Conclusion
-
-This assignment is designed to challenge you, help you grow as a developer, and prepare you for the real-world responsibilities of a Software QA Analyst/Developer. By working on realistic issues, collaborating with your team, and focusing on testing and quality assurance, you will gain valuable experience that will serve you throughout your career.
-
-Remember, the goal is not just to complete the assignment but to embrace the learning journey. Take the time to understand the codebase, ask questions, and explore new concepts. Engage with your team members, seek feedback, and learn from their experiences. Your dedication, curiosity, and willingness to learn will be the key to your success in this role.
-
-We are excited to have you on board and look forward to seeing your contributions to the project. Your fresh perspective and skills will undoubtedly make a positive impact on our team and the quality of our software.
-
-If you have any questions or need assistance, don't hesitate to reach out to your mentor or team lead. We are here to support you and ensure that you have a rewarding and enriching experience.
-
-Once again, welcome to the Event Manager Company! Let's embark on this exciting journey together and create something remarkable.
-
-Happy coding and happy learning!
