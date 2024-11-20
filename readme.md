@@ -25,11 +25,11 @@ Welcome to the Event Manager Company! As a newly hired Software QA Analyst/Devel
 
 2. **Clone the Forked Repository**: Clone the forked repository to your local machine using the `git clone` command. This creates a local copy of the repository on your computer, enabling you to make changes and run the project locally.
 
-3. **Verify the Project Setup**: Follow the steps in the instructor video to set up the project using [Docker](https://www.docker.com/). Docker allows you to package the application with all its dependencies into a standardized unit called a container. Verify that you can access the API documentation at `http://localhost/docs` and the database using [PGAdmin](https://www.pgadmin.org/) at `http://localhost:5050`.
+3. **Verify the Project Setup**: Follow the steps in the instructor video to set up the project using [Docker](https://www.docker.com/). Docker allows you to package the application with all its dependencies into a standardized unit called a container. Verify that you can access the API documentation at [http://localhost/docs](http://localhost/docs) and the database using [PGAdmin](https://www.pgadmin.org/) at [http://localhost:5050](http://localhost:5050).
 
 ## Testing and Database Management
 
-1. **Explore the API**: Use `http://localhost/docs` to familiarize yourself with the API endpoints, request/response formats, and authentication mechanisms. It provides an interactive interface to explore and test the API endpoints.
+1. **Explore the API**: Use [http://localhost/docs](http://localhost/docs) to familiarize yourself with the API endpoints, request/response formats, and authentication mechanisms. It provides an interactive interface to explore and test the API endpoints.
 
 2. **Run Tests**: Execute the provided test suite using pytest, a popular testing framework for Python. Running tests ensures that the existing functionality of the API is working as expected. Note that running tests will drop the database tables, so you may need to manually drop the Alembic version table using PGAdmin and re-run migrations to ensure a clean state.
 
@@ -95,8 +95,8 @@ To complete this assignment, submit the following:
     - [Alembic Migration - this is what runs to create the tables when you do alembic upgrade head](alembic/versions/628adcb2d60e_initial_migration.py)
     - See the tests folder for all the tests
 
- - API Documentation: `http://localhost/docs` - Provides information on endpoints, request/response formats, and authentication.
- - Database Management: `http://localhost:5050` - The PGAdmin interface for managing the PostgreSQL database, allowing you to view and manipulate the database tables.
+ - API Documentation: [http://localhost/docs](http://localhost/docs) - Provides information on endpoints, request/response formats, and authentication.
+ - Database Management: [http://localhost:5050](http://localhost:5050) - The PGAdmin interface for managing the PostgreSQL database, allowing you to view and manipulate the database tables.
 
 - **Code Documentation**:
  The project codebase includes docstrings and comments explaining various concepts and functionalities. Take the time to read through the code and understand how different components work together. Pay attention to the structure of the code, the naming conventions used, and the purpose of each function or class. Understanding the existing codebase will help you write code that is consistent and integrates well with the project.
