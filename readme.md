@@ -43,7 +43,7 @@ docker compose exec fastapi alembic upgrade head
 
 5. Goto http://localhost/docs to view openapi spec documentation
 
-Click "authorize" input username: `admin` password: `secret`
+Click "authorize" input username: `admin@example.com` password: `secret`
 
 6. Goto http://localhost:5050 to connect and manage the database.
 
