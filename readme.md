@@ -15,7 +15,36 @@ Welcome to the Event Manager Company! As a newly hired Software QA Analyst/Devel
 docker compose up --build
 ```
 
-2. Run `pytest` inside the containers:
+2. Need to apply database migrations:
+
+```
+docker compose exec fastapi alembic upgrade head
+```
+
+3. Goto http://localhost/docs to view openapi spec documentation
+
+Click "authorize" input username: `admin@example.com` password: `secret`
+
+4. Goto http://localhost:5050 to connect and manage the database.
+
+The following information must match the ones in the `docker-compose.yml` file.
+
+Login:
+
+- Email address / Username: `admin@example.com`
+- Password: `adminpassword`
+
+When add new server:
+
+- Host name/address: `postgres`
+- Port: `5432`
+- Maintenance database: `myappdb`
+- Username: `user`
+- Password: `password`
+
+## Optional Commands
+
+### Run `pytest` inside the containers:
 
 Run all tests:
 
@@ -29,39 +58,11 @@ Run a single test:
 docker compose exec fastapi pytest tests/test_services/test_user_service.py::test_list_users
 ```
 
-3. Creating database migration:
+### Creating database migration:
 
 ```
 docker compose exec fastapi alembic revision --autogenerate -m 'added admin'
 ```
-
-4. Need to apply database migrations:
-
-```
-docker compose exec fastapi alembic upgrade head
-```
-
-5. Goto http://localhost/docs to view openapi spec documentation
-
-Click "authorize" input username: `admin@example.com` password: `secret`
-
-6. Goto http://localhost:5050 to connect and manage the database.
-
-The following information must match the ones in the `docker-compose.yml` file.
-
-Login:
-
-- Email address / Username: `admin@example.com`
-- Passwird: `adminpassword`
-
-When add new server:
-
-- Host name/address: `postgres`
-- Port: `5432`
-- Maintenance database: `myappdb`
-- Username: `user`
-- Password: `password`
-
 
 ## Assignment Objectives
 
