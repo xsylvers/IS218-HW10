@@ -153,6 +153,7 @@ To complete this assignment, submit the following:
 
  - API Documentation: [http://localhost/docs](http://localhost/docs) - Provides information on endpoints, request/response formats, and authentication.
  - Database Management: [http://localhost:5050](http://localhost:5050) - The PGAdmin interface for managing the PostgreSQL database, allowing you to view and manipulate the database tables.
+ - Email service: [https://mailtrap.io/](https://mailtrap.io/) - Email Delivery Platform that delivers just in time. Great for dev, and marketing teams. After registered, put the credentials in `.env` file.
 
 - **Code Documentation**:
  The project codebase includes docstrings and comments explaining various concepts and functionalities. Take the time to read through the code and understand how different components work together. Pay attention to the structure of the code, the naming conventions used, and the purpose of each function or class. Understanding the existing codebase will help you write code that is consistent and integrates well with the project.
