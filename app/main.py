@@ -1,6 +1,6 @@
-from builtins import Exception
-from fastapi import FastAPI
-from starlette.responses import JSONResponse
+from builtins import Exception 
+from fastapi import FastAPI #type ignore 
+from starlette.responses import JSONResponse #type ignore
 from app.database import Database
 from app.dependencies import get_settings
 from app.routers import user_routes
