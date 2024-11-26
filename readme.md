@@ -2,6 +2,7 @@
 
 ## Links to Six Resolved Closed Issues
 Issue: (https://github.com/xsylvers/IS218-HW10/issues/1)
+
 Issue: (https://github.com/xsylvers/IS218-HW10/issues/2)
 
 ## Docker Hub Image 
