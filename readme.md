@@ -5,14 +5,17 @@ Issue: (https://github.com/xsylvers/IS218-HW10/issues/1)
 
 Issue: (https://github.com/xsylvers/IS218-HW10/issues/2)
 
-Issue: 
+Issue: (https://github.com/xsylvers/IS218-HW10/issues/3)
 
-Issue: 
+Issue: (https://github.com/xsylvers/IS218-HW10/issues/4)
 
-Issue: 
+Issue: (https://github.com/xsylvers/IS218-HW10/issues/5)
+
+Issue: (https://github.com/xsylvers/IS218-HW10/issues/6)
 
 ## Docker Hub Image 
 
 ## Summary
+
 
 
